@@ -7,7 +7,7 @@ import random
 # print(my_favorite_module.my_fav_number)
 
 # Create random floating point numbers via 'random.random()'.
-random_floatnum = random.random() * 10
+random_floatnum = random.random() * 10 # This creates whole numbers with float (.0 - .1).
 print(random_floatnum)
 
 # Create a uniform random number (inclusive of a and b).
