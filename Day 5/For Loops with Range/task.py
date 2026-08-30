@@ -3,5 +3,13 @@
 # range() anatomy range(start, stop, step)
 # the stop parameter will not include last int (must extend stop num
 # beyond the expected end).
-for number in range(1, 11):
-    print(number)
+
+# Using range()
+# for number in range(1, 11):
+#     print(number)
+
+# Performing Gauss' challenge by adding up numbers in a range.
+total = 0
+for number in range(1, 101):
+    total += number
+print(total)
